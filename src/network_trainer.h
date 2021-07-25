@@ -1,0 +1,2 @@
+void gradient_decent(values_t* network, connections_t* connections, double* input, double* output, double mult_factor, int print_deltas);
+void gradient_decent_bulk(values_t* network, connections_t* connections, int bulksize, double* inputs, double* expected_outputs, double mult_factor);
